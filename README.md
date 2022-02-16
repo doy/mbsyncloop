@@ -8,6 +8,11 @@ simplest, it just runs in a loop which fetches all mail every 15 minutes, but
 it can be configured to watch some or all mailboxes using IMAP IDLE to
 immediately trigger mail fetching as it comes in.
 
+## Installation
+
+`mbsyncloop` is a standalone script, it just needs to be somewhere on your
+`$PATH`. It requires `perl`, `mbsync`, and `goimapnotify` to be installed.
+
 ## Configuration
 
 Configuration is read from `~/.config/mbsyncloop/config.json` if available. All
